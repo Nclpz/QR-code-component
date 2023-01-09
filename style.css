@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Outfit", sans-serif;
+}
+body .tarjeta {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+body .tarjeta .qr {
+  border-radius: 20px;
+  width: 300px;
+}
+body .tarjeta .h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: hsl(218deg, 44%, 22%);
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+body .tarjeta .p {
+  text-align: center;
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+  width: 250px;
+}/*# sourceMappingURL=style.css.map */
